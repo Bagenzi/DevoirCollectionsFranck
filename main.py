@@ -177,4 +177,8 @@ print(dictionnaire["cle5"])
 
 # Ajout d'un nouvel élément
 #**************************
-dictionnaire["cle11"] = "valeur11"
+dictionnaire["cle11"] = "hold"
+
+# Création d'une copie du dictionnaire
+#*************************************
+dictionnaire_copie = dictionnaire.copy()
