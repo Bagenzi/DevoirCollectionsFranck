@@ -1,3 +1,5 @@
+print("=====================QUESTION 1===============================\n\n")
+
 # Création une liste de 10 éléments de type chaîne de caractères
 #_______________________________________________________________
 liste = ["bagenzi", "ciza", "muco", "nkingi", "keza", "gakiza", "iranzi", "ishimwe", "ndaganje", "irankunda"]
@@ -54,3 +56,11 @@ print("Liste vidée : ", liste)
 # Suppression de la liste
 #------------------------
 del liste
+
+print("\n\n=========================QUESTION 2===============================\n\n")
+
+ # Création de la tuple
+ #=====================
+my_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+
