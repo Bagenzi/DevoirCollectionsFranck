@@ -166,4 +166,6 @@ print("\nClés et valeurs :")
 for cle, valeur in dictionnaire.items():
     print(f"{cle} : {valeur}")
 
-
+# Suppression de l'élément à la clé numéro 2
+#*******************************************
+del dictionnaire["cle2"]
