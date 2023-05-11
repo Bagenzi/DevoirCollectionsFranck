@@ -143,6 +143,12 @@ dictionnaire = {
     "cle10": "ten"
 }
 
+# Affichage du dictionnaire
+#**************************
+print("Dictionnaire :")
+print(dictionnaire)
+
+
 
 
 
