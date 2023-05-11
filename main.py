@@ -61,6 +61,11 @@ print("\n\n=========================QUESTION 2===============================\n\
 
  # Création de la tuple
  #=====================
-my_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+# Affichage des éléments de la tuple
+#===================================
+for element in tuple:
+    print(element)
 
 
