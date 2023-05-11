@@ -78,6 +78,11 @@ print("Le nombre de fois que la valeur 3 apparaît dans la tuple est :", count_3
 element_5 = tuple[4]
 print("Le contenu de l'élément numéro 5 est :", element_5)
 
+# Ordonnancement de la tuple
+#===========================
+my_tuple_sorted = sorted(my_tuple)
+print("La tuple ordonnée est :", my_tuple_sorted)
+
 
     
     
