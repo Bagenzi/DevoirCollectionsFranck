@@ -68,6 +68,11 @@ tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 for element in tuple:
     print(element)
     
+ # Affichage du nombre de fois que la valeur 3 apparaît dans la tuple
+ #===================================================================
+count_3 = tuple.count(3)
+print("Le nombre de fois que la valeur 3 apparaît dans la tuple est :", count_3)
+    
     
     
 
