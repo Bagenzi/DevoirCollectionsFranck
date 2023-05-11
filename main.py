@@ -50,3 +50,7 @@ print("Liste au sens inverse : ", liste_inverse)
 #---------------
 liste.clear()
 print("Liste vidée : ", liste)
+
+# Suppression de la liste
+#------------------------
+del liste
