@@ -14,3 +14,7 @@ print("Liste après modification de l'élément numéro 5 : ", liste)
 # Création d'une nouvelle liste en la remplissant avec les éléments de la liste précédente contenant la lettre "a"
 nouvelle_liste = [element for element in liste if "a" in element]
 print("Nouvelle liste contenant la lettre 'a' : ", nouvelle_liste)
+
+# Ajout d'un élément à la fin de la liste
+liste.append("franck")
+print("Liste après ajout d'un élément à la fin : ", liste)
