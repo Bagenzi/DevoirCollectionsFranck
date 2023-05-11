@@ -26,6 +26,11 @@ print("Liste après ajout d'un élément à la fin : ", liste)
 liste.insert(1, "pierre")
 print("Liste après ajout d'un élément à l'index numéro 2 : ", liste)
 
-# Supprimer l'élément numéro 3
+# Suppression de l'élément numéro 3
 del liste[2]
 print("Liste après suppression de l'élément numéro 3 : ", liste)
+
+# Suppression de l'élément à l’index numéro 2
+liste.pop(2)
+print("Liste après suppression de l'élément à l'index numéro 2 : ", liste)
+
