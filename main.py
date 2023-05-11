@@ -37,5 +37,11 @@ liste.pop(2)
 print("Liste après suppression de l'élément à l'index numéro 2 : ", liste)
 
 # Ordre dans la liste
+#--------------------
 liste.sort()
 print("Liste ordonnée : ", liste)
+
+# Affichage de la liste au sens inverse
+#--------------------------------------
+liste_inverse = liste[::-1]
+print("Liste au sens inverse : ", liste_inverse)
