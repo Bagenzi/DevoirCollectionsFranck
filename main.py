@@ -124,4 +124,25 @@ my_set.clear()
 print("Ensemble après suppression totale : ", my_set)
 
 
+print("\n\n=========================QUESTION 4===============================\n\n")
+
+
+
+# Création d'un dictionnaire de 10 éléments
+#******************************************
+dictionnaire = {
+    "cle1": "one",
+    "cle2": "two",
+    "cle3": "three",
+    "cle4": "four",
+    "cle5": "five",
+    "cle6": "six",
+    "cle7": "seven",
+    "cle8": "eight",
+    "cle9": "nine",
+    "cle10": "ten"
+}
+
+
+
 
