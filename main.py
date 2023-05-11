@@ -59,45 +59,47 @@ del liste
 
 print("\n\n=========================QUESTION 2===============================\n\n")
 
- # Création de la tuple
+ # Création de la Tuple
  #=====================
-tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+Tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-# Affichage des éléments de la tuple
+# Affichage des éléments de la Tuple
 #===================================
-for element in tuple:
+for element in Tuple:
     print(element)
     
- # Affichage du nombre de fois que la valeur 3 apparaît dans la tuple
+ # Affichage du nombre de fois que la valeur 3 apparaît dans la Tuple
  #===================================================================
-count_3 = tuple.count(3)
-print("Le nombre de fois que la valeur 3 apparaît dans la tuple est :", count_3)
+count_3 = Tuple.count(3)
+print("Le nombre de fois que la valeur 3 apparaît dans la Tuple est :", count_3)
 
 # Affichage du contenu de l'élément numéro 5
 #============================================
-element_5 = tuple[4]
+element_5 = Tuple[4]
 print("Le contenu de l'élément numéro 5 est :", element_5)
 
-# Ordonnancement de la tuple
+# Ordonnancement de la Tuple
 #===========================
-tuple_sorted = sorted(tuple)
-print("La tuple ordonnée est :", tuple_sorted)
+Tuple_sorted = sorted(Tuple)
+print("La Tuple ordonnée est :", Tuple_sorted)
 
-# Ajout d'un élément à la fin de la tuple
+# Ajout d'un élément à la fin de la Tuple
 #=========================================
-tuple = tuple + (11,)
-print("La nouvelle tuple avec un élément ajouté à la fin est :", tuple)
+Tuple = Tuple + (11,)
+print("La nouvelle Tuple avec un élément ajouté à la fin est :", Tuple)
 
 # Ajout d'un élément à l'index numéro 3
 #======================================
-my_list = list(my_tuple)
+my_list = list(Tuple)
 my_list.insert(3, 15)
-my_tuple = tuple(my_list)
-print("La nouvelle tuple avec un élément ajouté à l'index numéro 3 est :", my_tuple)
+Tuple = tuple(my_list)
+print("La nouvelle Tuple avec un élément ajouté à l'index numéro 3 est :", Tuple)
 
 
-    
-    
-    
+
+print("\n\n=========================QUESTION 3===============================\n\n")
 
 
+# Création d'un ensemble de 10 éléments de type chaîne de caractères
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+my_set = set(["un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"])
