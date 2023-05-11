@@ -5,3 +5,8 @@ liste = ["bagenzi", "ciza", "muco", "nkingi", "keza", "gakiza", "iranzi", "ishim
 # Affichage des éléments de la liste
 #-----------------------------------
 print("Liste initiale : ", liste)
+
+# Changement du contenu de l'élément numéro 5
+#------------------------------------------
+liste[4] = "kenny"
+print("Liste après modification de l'élément numéro 5 : ", liste)
