@@ -45,3 +45,8 @@ print("Liste ordonnée : ", liste)
 #--------------------------------------
 liste_inverse = liste[::-1]
 print("Liste au sens inverse : ", liste_inverse)
+
+# Vider la liste
+#---------------
+liste.clear()
+print("Liste vidée : ", liste)
