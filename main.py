@@ -80,9 +80,13 @@ print("Le contenu de l'élément numéro 5 est :", element_5)
 
 # Ordonnancement de la tuple
 #===========================
-my_tuple_sorted = sorted(my_tuple)
-print("La tuple ordonnée est :", my_tuple_sorted)
+tuple_sorted = sorted(tuple)
+print("La tuple ordonnée est :", tuple_sorted)
 
+# Ajout d'un élément à la fin de la tuple
+#=========================================
+my_tuple = my_tuple + (11,)
+print("La nouvelle tuple avec un élément ajouté à la fin est :", my_tuple)
 
     
     
