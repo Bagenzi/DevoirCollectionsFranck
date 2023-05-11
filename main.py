@@ -22,5 +22,10 @@ liste.append("franck")
 print("Liste après ajout d'un élément à la fin : ", liste)
 
 # Ajout d'un élément à l’index numéro 2
+#--------------------------------------
 liste.insert(1, "pierre")
 print("Liste après ajout d'un élément à l'index numéro 2 : ", liste)
+
+# Supprimer l'élément numéro 3
+del liste[2]
+print("Liste après suppression de l'élément numéro 3 : ", liste)
