@@ -174,3 +174,7 @@ del dictionnaire["cle2"]
 #******************************************
 print("\nElément de la clé numéro 5 :")
 print(dictionnaire["cle5"])
+
+# Ajout d'un nouvel élément
+#**************************
+dictionnaire["cle11"] = "valeur11"
