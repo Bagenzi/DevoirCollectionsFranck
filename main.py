@@ -148,6 +148,12 @@ dictionnaire = {
 print("Dictionnaire :")
 print(dictionnaire)
 
+# Affichage des clés
+#*******************
+print("\nClés :")
+for cle in dictionnaire.keys():
+    print(cle)
+
 
 
 
