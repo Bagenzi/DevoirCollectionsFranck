@@ -107,3 +107,10 @@ my_set = set(["un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "n
 # Affichage du set
 #+++++++++++++++++
 print("Ensemble initial : ", my_set)
+
+# Ajout d'un élément à l'ensemble
+#+++++++++++++++++++++++++++++++++
+my_set.add("vingt")
+print("Ensemble après ajout : ", my_set)
+
+
