@@ -118,4 +118,10 @@ print("Ensemble après ajout : ", my_set)
 my_set.remove("trois")
 print("Ensemble après suppression : ", my_set)
 
+# Suppression de l'ensemble (la totalite)
+#++++++++++++++++++++++++++
+my_set.clear()
+print("Ensemble après suppression totale : ", my_set)
+
+
 
