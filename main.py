@@ -169,3 +169,8 @@ for cle, valeur in dictionnaire.items():
 # Suppression de l'élément à la clé numéro 2
 #*******************************************
 del dictionnaire["cle2"]
+
+# Affichage de l'élément de la clé numéro 5
+#******************************************
+print("\nElément de la clé numéro 5 :")
+print(dictionnaire["cle5"])
