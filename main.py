@@ -182,3 +182,10 @@ dictionnaire["cle11"] = "hold"
 # Création d'une copie du dictionnaire
 #*************************************
 dictionnaire_copie = dictionnaire.copy()
+
+# Affichage des nouveaux éléments
+#********************************
+print("\nNouveaux éléments :")
+for cle, valeur in dictionnaire_copie.items():
+    if cle not in dictionnaire:
+        print(f"{cle} : {valeur}")
