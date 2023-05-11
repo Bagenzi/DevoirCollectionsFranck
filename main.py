@@ -154,6 +154,11 @@ print("\nClés :")
 for cle in dictionnaire.keys():
     print(cle)
 
+# Affichage des valeurs
+#**********************
+print("\nValeurs :")
+for valeur in dictionnaire.values():
+    print(valeur)
 
 
 
