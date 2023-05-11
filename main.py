@@ -72,6 +72,8 @@ for element in tuple:
  #===================================================================
 count_3 = tuple.count(3)
 print("Le nombre de fois que la valeur 3 apparaît dans la tuple est :", count_3)
+
+
     
     
     
