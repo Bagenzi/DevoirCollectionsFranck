@@ -103,3 +103,7 @@ print("\n\n=========================QUESTION 3===============================\n\
 # Création d'un ensemble de 10 éléments de type chaîne de caractères
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 my_set = set(["un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"])
+
+# Affichage du set
+#+++++++++++++++++
+print("Ensemble initial : ", my_set)
