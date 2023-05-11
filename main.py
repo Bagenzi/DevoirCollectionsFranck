@@ -160,6 +160,10 @@ print("\nValeurs :")
 for valeur in dictionnaire.values():
     print(valeur)
 
-
+# Affichage des clés et des valeurs
+#**********************************
+print("\nClés et valeurs :")
+for cle, valeur in dictionnaire.items():
+    print(f"{cle} : {valeur}")
 
 
