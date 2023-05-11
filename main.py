@@ -113,4 +113,9 @@ print("Ensemble initial : ", my_set)
 my_set.add("vingt")
 print("Ensemble après ajout : ", my_set)
 
+# Suppression d'un élément de l'ensemble
+#+++++++++++++++++++++++++++++++++++++++
+my_set.remove("trois")
+print("Ensemble après suppression : ", my_set)
+
 
