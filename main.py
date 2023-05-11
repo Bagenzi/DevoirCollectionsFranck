@@ -85,8 +85,16 @@ print("La tuple ordonnée est :", tuple_sorted)
 
 # Ajout d'un élément à la fin de la tuple
 #=========================================
-my_tuple = my_tuple + (11,)
-print("La nouvelle tuple avec un élément ajouté à la fin est :", my_tuple)
+tuple = tuple + (11,)
+print("La nouvelle tuple avec un élément ajouté à la fin est :", tuple)
+
+# Ajout d'un élément à l'index numéro 3
+#======================================
+my_list = list(my_tuple)
+my_list.insert(3, 15)
+my_tuple = tuple(my_list)
+print("La nouvelle tuple avec un élément ajouté à l'index numéro 3 est :", my_tuple)
+
 
     
     
